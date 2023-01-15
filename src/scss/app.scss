@@ -20,18 +20,22 @@ html {
 }
 
 .main {
+  width: 520px;
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
 
 .card {
+  width: 520px;
   border: 10px solid $grey-light;
 }
 
 .card-header {
+  padding: 25px 5px 20px 25px;
   background-color: $light;
 }
 
 .card .content {
+  padding: 30px 25px;
 }
