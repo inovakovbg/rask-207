@@ -20,7 +20,6 @@ html {
 }
 
 .main {
-  width: 520px;
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -28,6 +27,7 @@ html {
 
 .card {
   width: 520px;
+  box-sizing: border-box;
   border: 10px solid $grey-light;
 }
 
